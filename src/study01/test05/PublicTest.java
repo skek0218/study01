@@ -1,6 +1,6 @@
 package study01.test05;
 
-import java.util.Random; //´Ù¸¥ ÆĞÅ°Áö¿¡ ÀÖ´Â°É ºÒ·¯¿Ã °æ¿ì crtl, shift,o¸¦ ÅëÇØ¼­ importÇØ¾ß´ï
+import java.util.Random; //ë‹¤ë¥¸ íŒ¨í‚¤ì§€ì— ìˆëŠ”ê±¸ ë¶ˆëŸ¬ì˜¬ ê²½ìš° crtl, shift,oë¥¼ í†µí•´ì„œ importí•´ì•¼ëŒ
 
 import study01.test04.PrivateTest;
 

@@ -4,14 +4,14 @@ import java.util.Random;
 
 public class ObjectTest {
 
-	int age; //Å¬·¡½º ¹Ù·Î ¹Ø¿¡ÀÖ´Â º¯¼ö´Â ¸â¹öº¯¼ö¶ó°í ÇÏ¿© ÃÊ±â°ªÀÌ 0 À¸·Î ÀâÈù´Ù!
+	int age; //í´ë˜ìŠ¤ ë°”ë¡œ ë°‘ì—ìˆëŠ” ë³€ìˆ˜ëŠ” ë©¤ë²„ë³€ìˆ˜ë¼ê³  í•˜ì—¬ ì´ˆê¸°ê°’ì´ 0 ìœ¼ë¡œ ì¡íŒë‹¤!
 	String name;
 	
 	String getStr() {
 		return null;
 	}
 	// Random r;
-	/*public ObjectTest() { //ÀÌ°Å method°¡ ¾Æ´Ï°í »ı¼ºÀÚ¶ó°í ÇÔ, ÀÚ¹Ù¿¡¼­´Â ¼Ò¸êÀÚ´Â µû·Î¾øÀ½
+	/*public ObjectTest() { //ì´ê±° methodê°€ ì•„ë‹ˆê³  ìƒì„±ìë¼ê³  í•¨, ìë°”ì—ì„œëŠ” ì†Œë©¸ìëŠ” ë”°ë¡œì—†ìŒ
 		
 	}
 	*/
@@ -21,6 +21,6 @@ public class ObjectTest {
 		
 		System.out.println(objectTest.age);
 		System.out.println(objectTest.name);
-	// System.out.println(objectTest.r.nextInt()); ÀÌ°Å´Â ¿À·ù³², r°ªÀÌ ÃÊ±âÈ­µÇÁö ¾Ê¾Ò±â¶§¹®¿¡ (runtime exception)
+	// System.out.println(objectTest.r.nextInt()); ì´ê±°ëŠ” ì˜¤ë¥˜ë‚¨, rê°’ì´ ì´ˆê¸°í™”ë˜ì§€ ì•Šì•˜ê¸°ë•Œë¬¸ì— (runtime exception)
 	}
 }

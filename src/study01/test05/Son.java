@@ -2,12 +2,12 @@ package study01.test05;
 
 class Father{
 	void work() {
-		System.out.println("¾Æ¹öÁö°¡ ÀÏÀ» ÇÏ½Ê´Ï´Ù.");
+		System.out.println("ì•„ë²„ì§€ê°€ ì¼ì„ í•˜ì‹­ë‹ˆë‹¤.");
 	}
 }
 public class Son extends Father {
 	void work() {
-		System.out.println("³ªµµ ÀÏÀ» ÇÑ´Ù!");
+		System.out.println("ë‚˜ë„ ì¼ì„ í•œë‹¤!");
 	}
 	
 	public static void main(String[] args) {

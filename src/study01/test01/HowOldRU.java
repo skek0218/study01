@@ -5,19 +5,19 @@ import java.util.Scanner;
 public class HowOldRU {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		System.out.println("³Ê ¸î»ìÀÌ¾ß?");
+		System.out.println("ë„ˆ ëª‡ì‚´ì´ì•¼?");
 		String age = scan.nextLine();
-		System.out.println("³­" + age + "»ìÀÌ¾ß~");
-		int num = Integer.parseInt(age); // age¶ó´Â º¯¼ö¸¦ ºĞ¼®ÇØ¼­ ÀÎÆ®·Î ¹Ù²ãÁÖ´Â °Í error³¯ È®·üÀÌ ÀÖ±â¶§¹®¿¡ ÀÎÁöÇÏ°í ¿À·ù³¯ °æ¿ì ¼öÁ¤ÇØÁà¾ßÇÔ
+		System.out.println("ë‚œ" + age + "ì‚´ì´ì•¼~");
+		int num = Integer.parseInt(age); // ageë¼ëŠ” ë³€ìˆ˜ë¥¼ ë¶„ì„í•´ì„œ ì¸íŠ¸ë¡œ ë°”ê¿”ì£¼ëŠ” ê²ƒ errorë‚  í™•ë¥ ì´ ìˆê¸°ë•Œë¬¸ì— ì¸ì§€í•˜ê³  ì˜¤ë¥˜ë‚  ê²½ìš° ìˆ˜ì •í•´ì¤˜ì•¼í•¨
 
 		if (num <= 10) {
-			System.out.println("¾î¸°ÀÌ");
+			System.out.println("ì–´ë¦°ì´");
 		} else if (num <= 20) {
-			System.out.println("Ã»¼Ò³â");
+			System.out.println("ì²­ì†Œë…„");
 		} else if (num <= 40) {
-			System.out.println("Ã»³â");
+			System.out.println("ì²­ë…„");
 		} else {
-			System.out.println("²Á´ë");
+			System.out.println("ê¼°ëŒ€");
 		}
 	}
 }

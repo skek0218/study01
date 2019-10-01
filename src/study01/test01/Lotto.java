@@ -5,41 +5,41 @@ import java.util.Scanner;
 
 public class Lotto {
 	public static void main(String[] args) {
-		System.out.println("1¹øÀç ·Î¶Ç ¹øÈ£¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä.");
+		System.out.println("1ë²ˆì¬ ë¡œë˜ ë²ˆí˜¸ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”.");
 		Scanner scan=new Scanner(System.in); 
 		int num1=Integer.parseInt(scan.nextLine());
-		System.out.println("´Ï°¡ ÀÔ·ÂÇÑ Ã¹¹øÂ° ¹øÈ£:" + num1);
+		System.out.println("ë‹ˆê°€ ì…ë ¥í•œ ì²«ë²ˆì§¸ ë²ˆí˜¸:" + num1);
 		
-		System.out.println("2¹øÀç ·Î¶Ç ¹øÈ£¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä.");
+		System.out.println("2ë²ˆì¬ ë¡œë˜ ë²ˆí˜¸ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”.");
 		int num2=Integer.parseInt(scan.nextLine());
-		System.out.println("´Ï°¡ ÀÔ·ÂÇÑ µÎ¹øÂ° ¹øÈ£:" + num2);
+		System.out.println("ë‹ˆê°€ ì…ë ¥í•œ ë‘ë²ˆì§¸ ë²ˆí˜¸:" + num2);
 		
-		System.out.println("3¹øÂ° ·Î¶Ç ¹øÈ£¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä.");
+		System.out.println("3ë²ˆì§¸ ë¡œë˜ ë²ˆí˜¸ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”.");
 		int num3=Integer.parseInt(scan.nextLine());
-		System.out.println("´Ï°¡ ÀÔ·ÂÇÑ ¼¼¹øÂ° ¹øÈ£:" + num3);
+		System.out.println("ë‹ˆê°€ ì…ë ¥í•œ ì„¸ë²ˆì§¸ ë²ˆí˜¸:" + num3);
 		
-		System.out.println("4¹øÂ° ·Î¶Ç ¹øÈ£¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä.");
+		System.out.println("4ë²ˆì§¸ ë¡œë˜ ë²ˆí˜¸ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”.");
 		int num4=Integer.parseInt(scan.nextLine());
-		System.out.println("´Ï°¡ ÀÔ·ÂÇÑ ¼¼¹øÂ° ¹øÈ£:" + num4);
+		System.out.println("ë‹ˆê°€ ì…ë ¥í•œ ì„¸ë²ˆì§¸ ë²ˆí˜¸:" + num4);
 		
-		System.out.println("5¹øÂ° ·Î¶Ç ¹øÈ£¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä.");
+		System.out.println("5ë²ˆì§¸ ë¡œë˜ ë²ˆí˜¸ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”.");
 		int num5=Integer.parseInt(scan.nextLine());
-		System.out.println("´Ï°¡ ÀÔ·ÂÇÑ ¼¼¹øÂ° ¹øÈ£:" + num5);
+		System.out.println("ë‹ˆê°€ ì…ë ¥í•œ ì„¸ë²ˆì§¸ ë²ˆí˜¸:" + num5);
 		
-		System.out.println("6¹øÂ° ·Î¶Ç ¹øÈ£¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä.");
+		System.out.println("6ë²ˆì§¸ ë¡œë˜ ë²ˆí˜¸ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”.");
 		int num6=Integer.parseInt(scan.nextLine());
-		System.out.println("´Ï°¡ ÀÔ·ÂÇÑ ¼¼¹øÂ° ¹øÈ£:" + num6);
+		System.out.println("ë‹ˆê°€ ì…ë ¥í•œ ì„¸ë²ˆì§¸ ë²ˆí˜¸:" + num6);
 		
 		Random r = new Random();
-		System.out.println("ÀÌ¹øÁÖ ·Î¶Ç ¹øÈ£´Â µÎµÎµÕ~~");
+		System.out.println("ì´ë²ˆì£¼ ë¡œë˜ ë²ˆí˜¸ëŠ” ë‘ë‘ë‘¥~~");
 		int correctCnt=0;
 		for(int i=1;i<=6;i++) {
 			int rNum = r.nextInt(45)+1;
-			System.out.println(i+".¹øÂ° :" + rNum);
+			System.out.println(i+".ë²ˆì§¸ :" + rNum);
 			if(rNum==num1||rNum==num2||rNum==num3||rNum==num4||rNum==num5||rNum==num6) {
 				correctCnt++;
 			}
 		}
-		System.out.println("ÃÑ ¸ÂÀº °¹¼ö :" + correctCnt);
+		System.out.println("ì´ ë§ì€ ê°¯ìˆ˜ :" + correctCnt);
 	}
 }
