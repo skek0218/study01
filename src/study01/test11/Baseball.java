@@ -12,6 +12,7 @@ public class Baseball {
 		int[] set = new int[3];
 		int[] con = new int[3];
 
+		//입력부
 		for (int i = 0; i < set.length; i++) {
 			set[i] = r.nextInt(10);
 			for (int j = i - 1; j >= 0; j--) {
