@@ -42,6 +42,14 @@ public class ListTest {
 		System.out.println(lt.get(1));
 		
 		ArrayList<String> test1 = new ArrayList<String>();
-
+		test1.add("123");
+		test1.add("456");
+		test1.add("789");
+		System.out.println(test1);
+		test1.set(1, "444");
+		System.out.println(test1);
+		System.out.println(test1.get(1));
+		System.out.println(test1.indexOf("444"));
+		test1.indexOf(1);
 	}
 }
