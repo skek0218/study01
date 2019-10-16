@@ -7,9 +7,9 @@ import study01.test04.PrivateTest;
 public class PublicTest {
 
 	public int num;
-	
+
 	Random ran;
-	
+
 	public static void main(String[] args) {
 		PublicTest publicTest = new PublicTest();
 		System.out.println(publicTest.num);

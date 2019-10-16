@@ -6,7 +6,7 @@ class Father {
 	}
 }
 
-public class Son extends Father { 
+public class Son extends Father {
 	public void test() {
 		System.out.println("난 아들 테스트");
 	}

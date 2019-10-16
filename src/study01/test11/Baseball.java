@@ -12,7 +12,7 @@ public class Baseball {
 		int[] set = new int[3];
 		int[] con = new int[3];
 
-		//입력부
+		// 입력부
 		for (int i = 0; i < set.length; i++) {
 			set[i] = r.nextInt(10);
 			for (int j = i - 1; j >= 0; j--) {
@@ -36,8 +36,7 @@ public class Baseball {
 		for (int i = 0; i < set.length; i++) {
 			if (con[i] == set[i]) {
 				System.out.println("1strike");
-			}
-			else if (con[0] == set[1] || con[0] == set[2] || con[1] == set[0] || con[1] == set[2] || con[2] == set[0]
+			} else if (con[0] == set[1] || con[0] == set[2] || con[1] == set[0] || con[1] == set[2] || con[2] == set[0]
 					|| con[2] == set[1]) {
 				System.out.println("1ball");
 			} else

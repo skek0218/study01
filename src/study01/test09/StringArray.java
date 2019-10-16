@@ -46,9 +46,9 @@ public class StringArray {
 
 		// java에서 정해져있는 데이터타입 primary 데이터타입들을 정해져있지않은 데이터타입으로 가지고있는것들이 있음 다 앞에것만 대문자로
 		// 바꾸면 됨 ,Integer이랑 Character 만 이름이 다름 이런걸 wrapper class 라고 부름
-	//	int a =1;
-	//	Integer i = 1; // 혹은 new Integer(1)로 쓸수도있음
-		
+		// int a =1;
+		// Integer i = 1; // 혹은 new Integer(1)로 쓸수도있음
+
 		ArrayList<Integer> numList = new ArrayList<Integer>();
 		numList.add(1);
 		numList.add(2);

@@ -11,8 +11,8 @@ public class Test {
 		System.out.println(fNum);
 		System.out.println(sNum);
 		String str = fNum + "." + sNum;
-		System.out.println(str+1);
+		System.out.println(str + 1);
 		double db = Double.parseDouble(str);
-		System.out.println(db+1);
+		System.out.println(db + 1);
 	}
 }

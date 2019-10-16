@@ -1,18 +1,14 @@
 package study01.test02;
 
-public class Var2 
-{
+public class Var2 {
 	static int a = 5;
-	
-	static void A()
-	{
-		System.out.println("A ½ÇÇà");
+
+	static void A() {
+		System.out.println("A ï¿½ï¿½ï¿½ï¿½");
 	}
-	
-	public static void main(String[] args)
-	{
-		for(;a >= 1;a--)
-		{
+
+	public static void main(String[] args) {
+		for (; a >= 1; a--) {
 			A();
 		}
 	}

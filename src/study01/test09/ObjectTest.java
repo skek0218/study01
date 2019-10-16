@@ -16,14 +16,15 @@ public class ObjectTest {
 		System.out.println(num2);
 		System.out.println(ObjectTest2.num2); // 다른 클래스 안에 있는 거라면 이렇게 어디있는지 알려줘야댐
 		ObjectTest ot = new ObjectTest();
-		ot.num2=10; 
-		ot = new ObjectTest(); //아무리 초기화를 해도 num2는 초기화 되지않음 static 영역에 들어감
+		ot.num2 = 10;
+		ot = new ObjectTest(); // 아무리 초기화를 해도 num2는 초기화 되지않음 static 영역에 들어감
 		Abc abc = new Abc();
 		abc.abc();
 		System.out.println(num2);
 	}
 }
-class Abc{
+
+class Abc {
 	public static void abc() {
 		ObjectTest.num2 = 5;
 	}

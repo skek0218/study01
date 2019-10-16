@@ -1,26 +1,25 @@
 package study01.test02;
 
-public class ArrayTest 
-{
-	public static void main(String[] args)
-	{
-		/*String[] i = {"ÇÏ³ª", "µÑ", "¼Â"};
-		System.out.println(i[0]);*/
+public class ArrayTest {
+	public static void main(String[] args) {
+		/*
+		 * String[] i = {"ï¿½Ï³ï¿½", "ï¿½ï¿½", "ï¿½ï¿½"}; System.out.println(i[0]);
+		 */
 		int money1 = 0;
 		int money2 = 1000;
 		int money3 = 5000;
 		int money4 = 10000;
 		int money5 = 50000;
-		
+
 		int[] moneys = new int[4];
 		moneys[0] = 0;
 		moneys[1] = 1000;
 		moneys[2] = 5000;
 		moneys[3] = 10000;
-		
-		/*for(int i = 0;i < moneys.length;i++)				// '.' = ÀÇ
-		{
-			System.out.println(moneys[i]);
-		}*/
+
+		/*
+		 * for(int i = 0;i < moneys.length;i++) // '.' = ï¿½ï¿½ {
+		 * System.out.println(moneys[i]); }
+		 */
 	}
 }

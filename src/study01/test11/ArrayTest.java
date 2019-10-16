@@ -9,8 +9,8 @@ public class ArrayTest {
 		nums[1] = new int[10];
 		System.out.println(nums[0].length);
 		System.out.println(nums[1].length);
-		
+
 		int[] ns = new int[3];
-		
+
 	}
 }
