@@ -102,7 +102,7 @@ public class Execute {
 		
 	}
 	
-	public static void main(String[] args) {
+	void initResponse() {
 		Execute execute = new Execute();
 		while (1==1) {
 			System.out.println("========================================");
@@ -128,5 +128,34 @@ public class Execute {
 			}
 			else System.out.println("잘 못 입력하셨습니다.");
 		} 	
+	}
+	
+	public static void main(String[] args) {
+		Execute execute = new Execute();
+		/*while (1==1) {
+			System.out.println("========================================");
+			System.out.println("원하는 서비스를 선택해 주세요");
+			System.out.println("1. 유저생성");
+			System.out.println("2. 유저삭제");
+			System.out.println("3. 유저수정");
+			System.out.println("4. 유저조회");
+			System.out.println("q. 종료");
+			System.out.println("========================================");
+			String a = execute.scan.nextLine();
+			if (a.equals("1")) {
+				execute.insert();
+			}else if (a.equals("2")) {
+				execute.delete();
+			}else if (a.equals("3")) {
+				execute.update();
+			}else if (a.equals("4")) {
+				execute.select();
+			}else if (a.equals("q")) {
+				System.out.println("시스템 종료합니다.");
+				break;
+			}
+			else System.out.println("잘 못 입력하셨습니다.");
+		}*/
+		execute.initResponse();
 	}
 }
